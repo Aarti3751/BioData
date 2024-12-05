@@ -1,0 +1,143 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.biodata-form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.biodata-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.biodata-form form div {
+  margin-bottom: 15px;
+}
+
+.biodata-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.biodata-form input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.biodata-form button {
+  grid-column: span 2;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.biodata-form button:hover {
+  background-color: #218838;
+}
+
+.profile-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.profile-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.profile-card button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-card button:hover {
+  background-color: #c82333;
+}
